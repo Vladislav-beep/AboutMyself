@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B90864162545CCAE00C53E8B /* Wellscreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90864152545CCAE00C53E8B /* Wellscreen.swift */; };
 		B9A86A122544A1B400DBEEA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A86A112544A1B400DBEEA8 /* AppDelegate.swift */; };
 		B9A86A142544A1B400DBEEA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A86A132544A1B400DBEEA8 /* SceneDelegate.swift */; };
 		B9A86A162544A1B400DBEEA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A86A152544A1B400DBEEA8 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B90864152545CCAE00C53E8B /* Wellscreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wellscreen.swift; sourceTree = "<group>"; };
 		B9A86A0E2544A1B400DBEEA8 /* AboutMyself.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutMyself.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9A86A112544A1B400DBEEA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9A86A132544A1B400DBEEA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				B9A86A1A2544A1B500DBEEA8 /* Assets.xcassets */,
 				B9A86A1C2544A1B500DBEEA8 /* LaunchScreen.storyboard */,
 				B9A86A1F2544A1B500DBEEA8 /* Info.plist */,
+				B90864152545CCAE00C53E8B /* Wellscreen.swift */,
 			);
 			path = AboutMyself;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 				B9A86A162544A1B400DBEEA8 /* ViewController.swift in Sources */,
 				B9A86A122544A1B400DBEEA8 /* AppDelegate.swift in Sources */,
 				B9A86A142544A1B400DBEEA8 /* SceneDelegate.swift in Sources */,
+				B90864162545CCAE00C53E8B /* Wellscreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = swift.ru.AboutMyself;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = swift.ru.AboutMyself;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
